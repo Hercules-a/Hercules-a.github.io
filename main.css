@@ -1,3 +1,15 @@
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
 .index{
     margin: auto;
     vertical-align: middle;
@@ -7,9 +19,10 @@
 }
 header div h5 {
     padding-top: 5px;
+    font-size: 1.3rem;
 }
 header b {
-    font-size: 35px;
+    font-size: 2.2rem;
 }
 
 article iframe {
@@ -24,7 +37,7 @@ article iframe {
 }
 
 .list-group {
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 
@@ -39,7 +52,7 @@ article iframe {
 }
 
 article {
-    font-size: 18px;
+    font-size: 1.2rem;
     text-align: justify;
 }
 
