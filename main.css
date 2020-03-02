@@ -59,8 +59,9 @@ article {
 }
 
 video {
-    width: 100%;
-    max-width: 430px;
+    width: auto;
+    height: auto;
+    max-width: 50%;
     max-height: 240px;
 }
 
@@ -77,6 +78,8 @@ img {
 }
 
 #video_inz {
-    max-width: 430px;
+    width: auto;
+    height: auto;
+    max-width: 50%;
     max-height: 240px;
 }
