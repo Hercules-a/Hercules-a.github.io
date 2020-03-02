@@ -19,7 +19,7 @@ article iframe {
 }
 
 #photo {
-    height: 150px;
+    max-height: 150px;
     float: right;
 }
 
@@ -59,13 +59,16 @@ article {
 }
 
 video {
+    width: 100%;
     max-width: 430px;
     max-height: 240px;
 }
 
 img {
+    width: auto;
+    height: auto;
     max-height: 430px;
-    max-width: 430px;
+    max-width: 100%;
 }
 
 .more {
