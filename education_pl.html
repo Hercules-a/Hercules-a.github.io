@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edukacja</title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/667cfbc894.js" crossorigin="anonymous"></script>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <article>
+        <div class="card card-white">
+            <h3>
+                Wykształcenie wyższe, inżynierskie
+            </h3>
+            <div class="card">
+                <h4>
+                    Państwowa Wyższa Szkoła Zawodowa im. J.A. Komeńskiego w Lesznie
+                </h4>
+                studia dualne na kierunku: elektrotechnika <br>
+                specjalność: elektromechatronika<br>
+            </div>
+            <div class="card">
+                <h4>
+                    III Liceum Ogólnokształcące im. Juliusza Słowackiego w Lesznie
+                </h4>
+                profil: informatyczno-językowy
+            </div>
+        </div>
+
+        <div class="card card-white">
+            <h3>
+                Kursy internetowe
+            </h3>
+            <div class="card">
+                <h4>
+                    <a href="https://www.udemy.com/course/django-zaawansowany-pl/" target="_blank" class="links">
+                        Django 3: zaawansowany kurs (w trakcie)</a>
+                </h4>
+                platforma: Udemy<br>
+            </div>
+
+            <div class="card">
+                <h4>
+                    <a href="https://www.udemy.com/course/bootcamp-programistyczny/" target="_blank" class="links">
+                        Bootcamp programistyczny 2019 - Web dev Full stack (w trakcie)</a>
+                </h4>
+                platforma: Udemy
+            </div>
+
+            <div class="card">
+                <h4>
+                    <a href="https://www.udemy.com/course/django-restfull-api-po-polsku/" target="_blank" class="links">
+                        Django RESTful API</a>
+                </h4>
+                platforma: Udemy<br>
+                <div id="spoiler2" style="display:none" class="center">
+                    <img src="assets/cartyfikaty-udemy/rest.jpg">
+
+                </div>
+                <button title="Zobacz więcej" type="button" class="btn btn-link btn-block links align-right"
+                onclick="if(document.getElementById('spoiler2') .style.display=='none')
+                {document.getElementById('spoiler2') .style.display='';
+                document.getElementById('spoiler') .style.display='none';
+                }
+                else{document.getElementById('spoiler2') .style.display='none'}">
+                    <i class="fas fa-chevron-circle-down"></i> Więcej <i class="fas fa-chevron-circle-up"></i>
+                </button>
+            </div>
+            <div class="card">
+                <h4>
+                    <a href="https://www.udemy.com/course/django-po-polsku-podstawy/" target="_blank" class="links">
+                        Django 2.0 podstawy</a>
+                </h4>
+                platforma: Udemy
+                <div id="spoiler" style="display:none" class="center">
+                    <img src="assets/cartyfikaty-udemy/django.jpg">
+
+                </div>
+                <button title="Zobacz więcej" type="button" class="btn btn-link btn-block links align-right"
+                onclick="if(document.getElementById('spoiler') .style.display=='none')
+                {document.getElementById('spoiler') .style.display='';
+                document.getElementById('spoiler2') .style.display='none';}
+                else{document.getElementById('spoiler') .style.display='none'}">
+                    <i class="fas fa-chevron-circle-down"></i> Więcej <i class="fas fa-chevron-circle-up"></i>
+                </button>
+            </div>
+            <div class="card">
+                <h4>
+                    <a href="https://www.youtube.com/playlist?list=PLFH8bHppdSGuX-nwHitkEE94vpQZ-1DXg" target="_blank"
+                       class="links">Ukąś Pythona</a>
+                </h4>
+                platforma: YouTube
+            </div>
+        </div>
+
+    </article>
+</body>
+</html>
