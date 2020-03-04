@@ -34,7 +34,7 @@
     }
 }
 
-@media only screen and (min-width: 451px) and (max-width: 800px){
+@media only screen and (min-width: 451px) and (max-width: 900px){
     html {
         font-size: 10px;
     }
@@ -67,7 +67,7 @@
     }
 }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 901px) {
     html {
         font-size: 15px;
     }
