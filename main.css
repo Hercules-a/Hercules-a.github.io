@@ -29,9 +29,6 @@
         max-width: 95%;
         max-height: 430px;
     }
-    body {
-        background-color: red;
-    }
 }
 
 @media only screen and (min-width: 451px) and (max-width: 900px){
@@ -62,9 +59,6 @@
         max-width: 95%;
         max-height: 430px;
     }
-    body {
-        background-color: blue;
-    }
 }
 
 @media only screen and (min-width: 901px) {
@@ -89,9 +83,6 @@
         max-width: 49%;
         max-height: 430px;
     }
-    body {
-        background-color: green;
-    }
 }
 
 .index{
@@ -99,7 +90,7 @@
     vertical-align: middle;
     max-width: 950px;
     font-family: "Ubuntu Light";
-
+    background-color: #fafafa;
 }
 header div h5 {
     padding-top: 5px;
