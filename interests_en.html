@@ -1,15 +1,199 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Interests</title>
+    <title>Zainteresowania</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/667cfbc894.js" crossorigin="anonymous"></script>
+    <link href="main.css" rel="stylesheet">
 </head>
 <body>
-    <h1>
-        Interests
-    </h1>
+    <article>
+        <div class="card">
+            Programming
+        </div>
+        <div class="card">
+            Technical news
+        </div>
+
+        <div class="card">
+            <div class="row">
+                <div class="col">
+                    Windsurfing
+                </div>
+                <div class="col">
+                    <button title="View more" type="button" class="btn btn-link btn-block links align-right"
+                    onclick="if(document.getElementById('spoiler2') .style.display=='none')
+                    {document.getElementById('spoiler2') .style.display='';
+                    document.getElementById('spoiler4') .style.display='none';
+                    document.getElementById('spoiler') .style.display='none';
+                    document.getElementById('spoiler1') .style.display='none';
+                    document.getElementById('spoiler5') .style.display='none';
+                    document.getElementById('spoiler7') .style.display='none';}
+                    else{document.getElementById('spoiler2') .style.display='none'}">
+                        <i class="fas fa-chevron-circle-down"></i> More <i class="fas fa-chevron-circle-up"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="spoiler2" style="display:none" class="center">
+                <video muted autoplay loop>
+                    <source src="assets/windsurfing.mp4" type="video/mp4">
+                    <source src="assets/windsurfing.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="row">
+                <div class="col">
+                    Long distance running
+                </div>
+                <div class="col">
+                    <button title="View more" type="button" class="btn btn-link btn-block links align-right"
+                    onclick="if(document.getElementById('spoiler') .style.display=='none')
+                    {document.getElementById('spoiler') .style.display='';
+                    document.getElementById('spoiler4') .style.display='none';
+                    document.getElementById('spoiler5') .style.display='none';
+                    document.getElementById('spoiler1') .style.display='none';
+                    document.getElementById('spoiler2') .style.display='none';
+                    document.getElementById('spoiler7') .style.display='none';}
+                    else{document.getElementById('spoiler') .style.display='none'}">
+                        <i class="fas fa-chevron-circle-down"></i> More <i class="fas fa-chevron-circle-up"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="spoiler" style="display:none" class="center">
+                <img src="assets/photo-run.jpg">
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="row">
+                <div class="col">
+                    CrossFit
+                </div>
+                <div class="col">
+                    <button title="View more" type="button" class="btn btn-link btn-block links align-right"
+                    onclick="if(document.getElementById('spoiler7') .style.display=='none')
+                    {document.getElementById('spoiler7') .style.display='';
+                    document.getElementById('spoiler4') .style.display='none';
+                    document.getElementById('spoiler') .style.display='none';
+                    document.getElementById('spoiler1') .style.display='none';
+                    document.getElementById('spoiler2') .style.display='none';
+                    document.getElementById('spoiler5') .style.display='none';}
+                    else{document.getElementById('spoiler7') .style.display='none'}">
+                        <i class="fas fa-chevron-circle-down"></i> More <i class="fas fa-chevron-circle-up"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="spoiler7" style="display:none" class="center">
+                <video muted autoplay loop>
+                    <source src="assets/crossfit-gif.mp4" type="video/mp4">
+                    <source src="assets/crossfit-gif.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="row">
+                <div class="col">
+                    Board games
+                </div>
+                <div class="col">
+                    <button title="View more" type="button" class="btn btn-link btn-block links align-right"
+                    onclick="if(document.getElementById('spoiler1') .style.display=='none')
+                    {document.getElementById('spoiler1') .style.display='';
+                    document.getElementById('spoiler4') .style.display='none';
+                    document.getElementById('spoiler') .style.display='none';
+                    document.getElementById('spoiler5') .style.display='none';
+                    document.getElementById('spoiler2') .style.display='none';
+                    document.getElementById('spoiler7') .style.display='none';}
+                    else{document.getElementById('spoiler1') .style.display='none'}">
+                        <i class="fas fa-chevron-circle-down"></i> More <i class="fas fa-chevron-circle-up"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="spoiler1" style="display:none" class="center">
+                <img src="assets/board-games.jpg">
+            </div>
+        </div>
+
+        <div class="card">
+            Video games
+        </div>
+        <div class="card">
+            Films and series
+        </div>
+        <div class="card">
+            <div class="row">
+                <div class="col">
+                    Breeding ants
+                </div>
+                <div class="col">
+                    <button title="View more" type="button" class="btn btn-link btn-block links align-right"
+                    onclick="if(document.getElementById('spoiler4') .style.display=='none')
+                    {document.getElementById('spoiler4') .style.display='';
+                    document.getElementById('spoiler5') .style.display='none';
+                    document.getElementById('spoiler') .style.display='none';
+                    document.getElementById('spoiler1') .style.display='none';
+                    document.getElementById('spoiler2') .style.display='none';
+                    document.getElementById('spoiler7') .style.display='none';}
+                    else{document.getElementById('spoiler4') .style.display='none'}">
+                        <i class="fas fa-chevron-circle-down"></i> More <i class="fas fa-chevron-circle-up"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="spoiler4" style="display:none" class="center">
+                <video muted autoplay loop>
+                    <source src="assets/ants.mp4" type="video/mp4">
+                    <source src="assets/ants.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+                <video muted autoplay loop>
+                    <source src="assets/ants2.mp4" type="video/mp4">
+                    <source src="assets/ants2.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="row">
+                <div class="col-8">
+                    Breeding of carnivorous plants
+                </div>
+                <div class="col">
+                    <button title="View more" type="button" class="btn btn-link btn-block links align-right"
+                    onclick="if(document.getElementById('spoiler5') .style.display=='none')
+                    {document.getElementById('spoiler5') .style.display='';
+                    document.getElementById('spoiler4') .style.display='none';
+                    document.getElementById('spoiler') .style.display='none';
+                    document.getElementById('spoiler1') .style.display='none';
+                    document.getElementById('spoiler2') .style.display='none';
+                    document.getElementById('spoiler7') .style.display='none';
+                    }
+                    else{document.getElementById('spoiler5') .style.display='none'}">
+                        <i class="fas fa-chevron-circle-down"></i> More <i class="fas fa-chevron-circle-up"></i>
+                    </button>
+                </div>
+            </div>
+            <div id="spoiler5" style="display:none" class="center">
+                <video muted autoplay loop>
+                    <source src="assets/plant.mp4" type="video/mp4">
+                    <source src="assets/plant.mp4" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </article>
 </body>
 </html>

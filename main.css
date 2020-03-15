@@ -83,6 +83,9 @@
         max-width: 49%;
         max-height: 430px;
     }
+    .list-group-item {
+        padding: .6rem .0rem;
+    }
 }
 
 .index{

@@ -1,15 +1,70 @@
 <!doctype html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Experience</title>
+    <title>Doświadczenie</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/667cfbc894.js" crossorigin="anonymous"></script>
+    <link href="main.css" rel="stylesheet">
 </head>
 <body>
-    <h1>
-        Experience
-    </h1>
+    <article>
+        <div class="card">
+            <h4>
+                Bergman Engineering - Senior engineer (currently)
+            </h4>
+            Contract with Volkswagen Poznań<br><br>
+            working in Measuring Technique Departments:<br>
+            <ul>
+                <li>Messtechnik Września - project <i>New Crafter</i></li>
+                <li>Meisterbock & Cubing Poznań Antoninek - project <i>Caddy 5</i></li>
+            </ul>
+            <div id="spoiler" style="display:none" class="more">
+                My duty is:
+                <ul>
+                    <li>Car parts and whole cars measuring, using
+                        <a href="https://www.gom.com/pl.html" class="links">GOM's</a> </li>
+                        optical scanners
+                    <li>Measuring stations
+                        <a href="https://www.gom.com/pl/systemy-pomiarowe/atos-scanbox/atos-scanbox-serii-6.html" class="links">
+                            ATOS ScanBox</a> </li>
+                        programming and operating
+                    <li>Measuring reports and analysis creating</li>
+                </ul>
+                Additionally, I'm writing scrips in Python which automatize work in ATOS program
+            </div>
+            <button title="View more" type="button" class="btn btn-link btn-block links align-right"
+            onclick="if(document.getElementById('spoiler') .style.display=='none')
+            {document.getElementById('spoiler') .style.display=''}
+            else{document.getElementById('spoiler') .style.display='none'}">
+                <i class="fas fa-chevron-circle-down"></i> More <i class="fas fa-chevron-circle-up"></i>
+            </button>
+        </div>
+
+        <div class="card">
+            <h4>
+                EURO-net - Customer Advisor
+            </h4>
+            Working at RTV AGD store
+        </div>
+
+        <div class="card">
+            <h4>
+                Pomp Factory in Leszno - Mechanic/Electric
+            </h4>
+
+        </div>
+
+        <div class="card">
+            <h4>
+                LOB S.A. - Student Trainee
+            </h4>
+        </div>
+    </article>
 </body>
 </html>
