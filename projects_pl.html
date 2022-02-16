@@ -18,6 +18,75 @@
     <article>
         <div class="card">
             <h4>
+                Gra VR tworzona w Unity:
+            </h4>
+            <div>
+                Gra jest tworzona na silniku Unity, przeznaczona na zestaw VR Occulus Quest.<br> 
+                Obecnie w grze zaimplementowane są:<br> 
+                <ul>
+                    <li>poruszanie się gracza w trybie ciągłym oraz teleport</li>
+                    <li>podstawowe interakcje gracza z obiektami</li>
+                    <li>prosta fizyka</li>
+                    <li>zasady gry w bilard</li>
+                </ul>
+                
+            </div>
+            <div class="center">
+                <a href="https://github.com/PythonXCII/Unity_Billiard_and_Snooker_game" target="_blank" class="links">
+                    <i class="fab fa-github"></i> Kod projektu na platformie GitHub</a><br>
+            </div>
+
+            <div id="spoiler3" style="display:none">
+                Mamy do wyboru jeden z trzech trybów:<br>
+                <ul>
+                    <li>ćwiczenie: 
+                        <ul>
+                            <li>możliwe jest podnoszenie każdej bili i przestawienie w dowolne miejsce na stole</li>
+                            <li>można uderzać każdą bilę</li>
+                            <li>w każdej chwili można zrestartować grę</li>
+                            <li>brak zasad gry</li>
+                        </ul>
+                    </li>
+                    <li>pojedynek na jednym urządzeniu: 
+                        <ul>
+                            <li>umożliwia grę 2 osób na przemian na jednym urządzeniu</li>
+                            <li>gra pilnuje przestrzegania zasad</li>
+                            <li>gracz może podnieść tylko białą bilę po faulu przeciwnika</li>
+                            <li>możliwe jest tylko uderzanie bili białej, gdy bile się zatrzymały</li>
+                            <li>w celu uniknięcie przypadkowego uderzenia bili, kolizja między kijem<br> 
+                                a białą bilą jest aktywowana po wciśnięciu przycisku</li>
+                            <li>wyświetlane są informacje o tym czyj jest ruch oraz czy został popełniony faul</li>
+                        </ul>
+                    </li>
+                    <li>online:
+                        <ul>
+                            <li>łączenie graczy za pomocą PUN Photonengine</li>
+                            <li>gracze mogą łączyć się ze znajomymi za pomocą wygenerowanego kodu</li>
+                            <li>gracze mogą łączyć się z losowymi graczami</li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="center">
+                    <iframe id="video_unity" src="https://www.youtube.com/embed/7AjJQ5k22fk"
+                            frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+                            gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+            <button title="Zobacz więcej" type="button" class="btn btn-link btn-block links align-right"
+            onclick="if(document.getElementById('spoiler3') .style.display=='none')
+            {document.getElementById('spoiler3') .style.display='';
+            document.getElementById('spoiler') .style.display='none';
+            document.getElementById('spoiler1') .style.display='none';
+            document.getElementById('spoiler2') .style.display='none';}
+            else{document.getElementById('spoiler3') .style.display='none'}">
+                <i class="fas fa-chevron-circle-down"></i> Więcej <i class="fas fa-chevron-circle-up"></i>
+            </button>
+            
+        </div>
+
+        <div class="card">
+            <h4>
                 Aplikacja Webowa Django REST:
             </h4>
             <div>
@@ -39,7 +108,8 @@
                 onclick="if(document.getElementById('spoiler2') .style.display=='none')
                 {document.getElementById('spoiler2') .style.display='';
                 document.getElementById('spoiler') .style.display='none';
-                document.getElementById('spoiler1') .style.display='none';}
+                document.getElementById('spoiler1') .style.display='none';
+                document.getElementById('spoiler3') .style.display='none';}
                 else{document.getElementById('spoiler2') .style.display='none'}">
                     <i class="fas fa-chevron-circle-down"></i> Więcej <i class="fas fa-chevron-circle-up"></i>
                 </button>
@@ -72,7 +142,8 @@
                 onclick="if(document.getElementById('spoiler') .style.display=='none')
                 {document.getElementById('spoiler') .style.display='';
                 document.getElementById('spoiler2') .style.display='none';
-                document.getElementById('spoiler1') .style.display='none';}
+                document.getElementById('spoiler1') .style.display='none';
+                document.getElementById('spoiler3') .style.display='none';}
                 else{document.getElementById('spoiler') .style.display='none'}">
                     <i class="fas fa-chevron-circle-down"></i> Więcej <i class="fas fa-chevron-circle-up"></i>
                 </button>
@@ -114,7 +185,8 @@
                 onclick="if(document.getElementById('spoiler1') .style.display=='none')
                 {document.getElementById('spoiler1') .style.display='';
                 document.getElementById('spoiler') .style.display='none';
-                document.getElementById('spoiler2') .style.display='none';}
+                document.getElementById('spoiler2') .style.display='none';
+                document.getElementById('spoiler3') .style.display='none';}
                 else{document.getElementById('spoiler1') .style.display='none'}">
                     <i class="fas fa-chevron-circle-down"></i> Więcej <i class="fas fa-chevron-circle-up"></i>
                 </button>

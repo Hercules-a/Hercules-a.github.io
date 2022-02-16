@@ -1,6 +1,6 @@
 @media only screen and (max-width: 450px) {
     html {
-        font-size: 9px;
+        font-size: 8px;
     }
     .list-group-horizontal {
         flex-direction: column;
@@ -29,11 +29,17 @@
         max-width: 95%;
         max-height: 430px;
     }
+    #video_unity {
+        width: auto;
+        height: auto;
+        max-width: 95%;
+        max-height: 430px;
+    }
 }
 
 @media only screen and (min-width: 451px) and (max-width: 900px){
     html {
-        font-size: 10px;
+        font-size: 9px;
     }
     .list-group-item {
         padding: .6rem .0rem;
@@ -59,11 +65,17 @@
         max-width: 95%;
         max-height: 430px;
     }
+    #video_unity {
+        width: auto;
+        height: auto;
+        max-width: 95%;
+        max-height: 430px;
+    }
 }
 
 @media only screen and (min-width: 901px) {
     html {
-        font-size: 15px;
+        font-size: 14px;
     }
     video {
         width: auto;
@@ -78,6 +90,12 @@
         max-width: 49%;
     }
     #video_inz {
+        width: auto;
+        height: auto;
+        max-width: 49%;
+        max-height: 430px;
+    }
+    #video_unity {
         width: auto;
         height: auto;
         max-width: 49%;
